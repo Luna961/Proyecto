@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Lac</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <img src="logo.jpg" height="190" />
+
+      <div class="centrado">MY SECRET CODE</div>
+    </div>
+
+    <hr />
+
+    <div class="nosotros">
+      <a href="nosotros.html" >NOSOTROS</a>
+    </div>
+    <br />
+
+    <form>
+      <fieldset>
+        <!--fieldset (grupo de campos) permite organizar en grupos los campos de un formulario.// -->
+        <legend>Datos</legend>
+        Nombre:
+        <input
+          type="text"
+          name="Nombre"
+          id="name"
+          autofocus
+          autocomplete
+          required
+          placeholder="obligatorio"
+        />
+        <br />
+        Apellido Paterno:
+        <input
+          type="text"
+          name="Apellido Paterno"
+          id="pat"
+          autofocus
+          autocomplete
+          required
+          placeholder="obligatorio"
+        />
+        <br />
+        Apellido Materno:
+        <input
+          type="text"
+          name="Apellido Materno"
+          id="mat"
+          autofocus
+          autocomplete
+          required
+          placeholder="obligatorio"
+        />
+
+        <button type="button" id="btn">Enviar</button>
+        <br />
+      </fieldset>
+    </form>
+
+    <br />
+<div class="textt">
+
+
+    <div id="root">
+      INTRODUCE UN TEXTO:
+      <input type="text" id="texto" />
+      <br>
+      ESCOGE UN NUMERO DE POSICION:
+      <input type="number" id="displace" />
+      <br>
+      PULSA EL BOTON CODIFICAR
+      <button id="encode">Codificar</button>
+      <br>
+      
+      <input type="text" id="result" /> copia este texto y pegalo en INTRODUCE UN TEXTO, posteriormente pulsa el boton Descodificar
+      <br>
+      <button id="decode">Descodificar</button>
+      <br>
+      Podras observar que en el texto que introduciste inicialmente lo codifica al elegir un número de posicion
+      <br>
+       y para validar que realmente dice lo que escribiste lo descodificas
+    </div>
+  </div> </br>
+ <center><img src="codi.jpg" height="60" /></center> 
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
+
+
+
+
